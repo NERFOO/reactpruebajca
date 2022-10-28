@@ -52,7 +52,7 @@ export default class Especilidad extends Component {
 
     render() {
         if(this.state.statusInput == true) {
-            (<Navigate to="/apuestas"/>)
+            (<Navigate to="/"/>)
         } else {
             return (<div>
                 <h1>Especilidad</h1>
